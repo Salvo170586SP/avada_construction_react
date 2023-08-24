@@ -1,0 +1,36 @@
+#FooterTop{
+    /* height: 600px; */
+    padding: 50px 0;
+    background-color: #1E1E1E;
+    border-top: #3F3F3F 13px solid;
+}
+
+#FooterTop p{
+    color: #606060;
+}
+
+#FooterTop ul{
+    /* width: 550px; */
+    color: #525252;
+}
+
+.logoT{
+     color: #525252;
+}
+#FooterTop ul li{
+    width: 150px;
+    /* width: 385px; */
+    /* margin-right: 100px; */
+    /* padding-right: 100px; */
+    margin-bottom: 15px;
+    font-size: smaller;
+ }
+
+ #footerBottom{
+    height: 80px;
+    background-color: #111111;
+ }
+ #footerBottom p{
+    font-size: smaller;
+    color: #525252;
+}

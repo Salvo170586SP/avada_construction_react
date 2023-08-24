@@ -1,0 +1,14 @@
+#cardW {
+    width: 380px;
+    height: 380px;
+    border: 0;
+    transition: 0.2s linear;
+    margin: 15px;
+
+}
+
+#cardW:hover {
+    box-shadow: black 0 0 10px -5px;
+    transition: 0.2s linear;
+    transform: translateY(-5px);
+}

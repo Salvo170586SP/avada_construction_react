@@ -1,0 +1,12 @@
+#cardC {
+    width: 380px;
+    background-color: #F5F5F5;
+    border: 0;
+    transition: 0.2s linear;
+}
+
+#cardC:hover {
+    box-shadow: black 0 0 10px -5px;
+    transition: 0.2s linear;
+    transform: translateY(-5px);
+}

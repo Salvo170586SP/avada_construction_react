@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+  background-color: white;
+  height: 130px;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  z-index: 10;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  list-style-type: none;
+  padding: 20px;
+  margin: 0 !important;
 }
 
-.App-link {
-  color: #61dafb;
+li{
+  margin: 0 18px;
+ }
+
+a{
+  text-decoration-line: none !important;
+  color: rgb(162 139 139) !important;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover{
+   color: yellow !important;
+}
+
+
+.arrow {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  position: absolute;
+  top: 122px;
+  right: 550px;
+  transform: rotate(45deg);
 }

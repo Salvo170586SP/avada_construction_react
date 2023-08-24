@@ -1,0 +1,11 @@
+#jumbotron{
+    background-image: url('../../images/home-slider-62528242.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-position-y: 85px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+

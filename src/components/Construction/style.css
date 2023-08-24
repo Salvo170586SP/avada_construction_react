@@ -1,0 +1,52 @@
+#construction {
+    min-height: 100vh;
+}
+
+.jumb {
+    background-image: url('../../images/home-244125289.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    padding: 100px 0;
+    overflow: hidden;
+    position: relative;
+}
+.jumb-parallax {
+    background-image: url('../../images/home-parallax-144609983.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle-t{
+    width: 110%;
+    height: 200px;
+    border-radius: 0px 0px 60% 60%;
+    background-color: white;
+    border: 1px solid red;
+    position: absolute;
+    top: -120px;
+    left: -6%;
+}
+
+.circle-b{
+    width: 110%;
+    height: 200px;
+    border-radius: 0px 0px 60% 60%;
+    background-color: white;
+    border: 1px solid red;
+    position: absolute;
+    bottom: -135px;
+    left: -6%;
+    transform: rotate(180deg);
+}
+
+
+
+#work{
+    background-color: #F5F5F5;
+    min-height: 100vh;
+}
