@@ -1,12 +1,12 @@
 import "./style.css";
-import img from '../../images/card.jpg';
 
-const CardW = () => {
+
+const CardW = (props) => {
   return (
     <>
       <div id="cardW" className="card">
-        <figure>
-          <img className="img-fluid" src={img} alt="img" />
+        <figure className="m-0">
+          <img className="img-fluid" src={props.src} alt="img" />
         </figure>
       </div>
     </>

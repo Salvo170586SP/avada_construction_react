@@ -1,13 +1,14 @@
-#cardW {
-    width: 380px;
-    /* height: 380px; */
-    border: 0;
+#cardN {
+    width: 400px;
+    margin: 0 10px;
     transition: 0.2s linear;
-    margin: 15px;
-
 }
 
-#cardW:hover {
+#cardN .border-cardN {
+    border: 1px solid #EAE8E8
+}
+
+#cardN:hover {
     box-shadow: black 0 0 10px -5px;
     transition: 0.2s linear;
     transform: translateY(-5px);

@@ -96,7 +96,7 @@ const Footer = () => {
               <div className="col-12 col-md-6">
                 <p>
                   COPYRIGHT 2012 -2015 AVADA THEME BY{" "}
-                  <span className="text-light">THEMEFUSION</span> | ALL RIGHTS
+                  <span className="text-light">THEME FUSION</span> | ALL RIGHTS
                   RESERVED | POWERBY{" "}
                   <span className="text-light">WORDPRESS</span>
                 </p>

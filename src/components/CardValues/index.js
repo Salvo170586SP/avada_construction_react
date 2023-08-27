@@ -1,17 +1,19 @@
 import "./style.css";
 
-const CardC = (props) => {
-
+const CardV = (props) => {
   return (
     <>
-      <div id="cardC" className="card p-3 my-5">
+      <div
+      id="cardV"
+        className="card bg-transparent border-0 p-3 my-3">
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-12 text-center p-4 d-flex justify-content-center ">
-              <i className={`${props.classIcon} fa-2x d-flex justify-content-center align-items-center`}></i>
+              <i class={`${props.classIcon} text-light p-5 fa-3x d-flex justify-content-center align-items-center`}></i>
             </div>
             <div className="col-12 text-center d-flex flex-column align-items-center">
-              <h3>{props.title}</h3>
+              <h5 className="fw-normal">{props.title}</h5>
+              <div className="border-cardV"></div>
               <p>{props.detail}</p>
             </div>
           </div>
@@ -21,4 +23,4 @@ const CardC = (props) => {
   );
 };
 
-export default CardC;
+export default CardV;

@@ -1,0 +1,20 @@
+#NavMenuSM{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: #ffffffe6;
+    line-height: 100px;
+    transition: 0.2s linear;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    #NavMenuSM{
+        display: none;
+    }
+}

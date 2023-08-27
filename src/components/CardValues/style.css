@@ -1,0 +1,32 @@
+#cardV {
+    width: 280px
+}
+
+#cardV .fa-regular-v,
+#cardV .fa-solid-v {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.bg-gray {
+    background-color: #4EA4A4;
+}
+
+.bg-violet {
+    background-color: #4E6DA5;
+}
+
+.bg-red {
+    background-color: #F6722A;
+}
+
+.bg-orange {
+    background-color: #A7CF47;
+}
+
+.border-cardV {
+    border: 1px solid gray;
+    width: 25px;
+    margin: 20px 0;
+}

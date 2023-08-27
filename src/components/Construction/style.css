@@ -11,6 +11,7 @@
     overflow: hidden;
     position: relative;
 }
+
 .jumb-parallax {
     background-image: url('../../images/home-parallax-144609983.jpg');
     background-position: center;
@@ -21,7 +22,7 @@
     position: relative;
 }
 
-.circle-t{
+.circle-t {
     width: 110%;
     height: 200px;
     border-radius: 0px 0px 60% 60%;
@@ -32,7 +33,7 @@
     left: -6%;
 }
 
-.circle-b{
+.circle-b {
     width: 110%;
     height: 200px;
     border-radius: 0px 0px 60% 60%;
@@ -46,7 +47,15 @@
 
 
 
-#work{
+#work {
     background-color: #F5F5F5;
     min-height: 100vh;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #getQuotebtn {
+        display: none;
+    }
 }
