@@ -51,7 +51,7 @@ const Footer = () => {
                     <div className="d-flex justify-content-between my-2">
                       <div>
                         <i className="logoT fa-solid fa-heart me-3"></i>
-                        <i class="fa-solid logoT fa-up-right-from-square"></i>
+                        <i className="fa-solid logoT fa-up-right-from-square"></i>
                       </div>
                       <span
                         className="fw-bold"

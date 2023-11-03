@@ -9,7 +9,7 @@ const CardV = (props) => {
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-12 text-center p-4 d-flex justify-content-center ">
-              <i class={`${props.classIcon} text-light p-5 fa-3x d-flex justify-content-center align-items-center`}></i>
+              <i className={`${props.classIcon} text-light p-5 fa-3x d-flex justify-content-center align-items-center`}></i>
             </div>
             <div className="col-12 text-center d-flex flex-column align-items-center">
               <h5 className="fw-normal">{props.title}</h5>

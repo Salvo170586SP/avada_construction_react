@@ -5,7 +5,7 @@ const NavMenuSM = () => {
   return (
     <>
       <div id="NavMenuSM">
-        <div class="container">
+        <div className="container">
           <div className="row">
             <nav className="col-12 d-flex flex-column">
               <ul className="d-flex flex-column justify-content-end align-items-center ">

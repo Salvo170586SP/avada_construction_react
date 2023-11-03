@@ -56,22 +56,22 @@ const Construcition = () => {
               <div className="circle-b"></div>
               <div className="row align-items-center justify-contemt-around h-100">
                 <div className="col-12 col-md-2 offset-0 offset-md-2 text-center">
-                  <i class="fa-solid fa-bag-shopping fa-5x text-warning"></i>
+                  <i className="fa-solid fa-bag-shopping fa-5x text-warning"></i>
                   <h2 className="text-warning">3534</h2>
                   <h6 className="text-white">PLANNING APPLICATIONS</h6>
                 </div>
                 <div className="col-12 col-md-2 text-center">
-                  <i class="fa-solid fa-building fa-5x text-warning"></i>
+                  <i className="fa-solid fa-building fa-5x text-warning"></i>
                   <h2 className="text-warning">896</h2>
                   <h6 className="text-white">COMPLETED PROJECTS</h6>
                 </div>
                 <div className="col-12 col-md-2 text-center">
-                  <i class="fa-solid fa-users-line fa-5x text-warning"></i>
+                  <i className="fa-solid fa-users-line fa-5x text-warning"></i>
                   <h2 className="text-warning">172</h2>
                   <h6 className="text-white">TRAINED PROFESSIONALS</h6>
                 </div>
                 <div className="col-12 col-md-2 text-center">
-                  <i class="fa-solid fa-globe fa-5x text-warning"></i>
+                  <i className="fa-solid fa-globe fa-5x text-warning"></i>
                   <h2 className="text-warning">19</h2>
                   <h6 className="text-white">INTERNATIONAL OFFICES</h6>
                 </div>
